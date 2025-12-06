@@ -7,8 +7,6 @@
 
     scrollbar-width: none;
     padding-top: 7px;
-    padding-left: 7px;
-    padding-right: 7px;
     box-sizing: border-box;
 
     .navBar_list {
@@ -19,7 +17,6 @@
         align-items: center;
         justify-content: start;
         gap: 1rem;
-        z-index: 10;
 
         li {
             padding: 1rem;
