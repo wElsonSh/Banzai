@@ -1,0 +1,30 @@
+@import '@/app/styles/variables.scss';
+
+.Board {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: #111111d1;
+    padding: 1rem;
+    box-sizing: border-box;
+
+    .Board_columnsContainer {
+        width: 100%;
+        height: 100%;
+        background-color: transparent;
+
+        .Board_columnsList {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+            box-sizing: border-box;
+
+            li {
+                width: 20rem;
+                height: 100%;
+            }
+        }
+    }
+}

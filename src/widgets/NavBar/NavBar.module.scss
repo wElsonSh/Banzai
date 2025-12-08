@@ -20,7 +20,7 @@
 
         li {
             padding: 1rem;
-            background-color: $black_2;
+            background-color: $black_3;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -28,7 +28,6 @@
             color: $white;
             font-family: Oswald;
             cursor: pointer;
-            box-shadow: 0 0 20px #0000004e;
             transition: .3s ease;
 
             p {

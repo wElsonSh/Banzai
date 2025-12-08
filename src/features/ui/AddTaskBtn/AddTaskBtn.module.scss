@@ -1,0 +1,45 @@
+@import '@/app/styles/variables.scss';
+
+.AddTaskBtn {
+    width: 100%;
+    height: fit-content;
+    border: none;
+    padding: 1rem 0;
+    margin: auto;
+    box-sizing: border-box;
+    background-color: #a780c8;
+    border-radius: 10px;
+    outline: 2px dashed $white;
+    cursor: pointer;
+    transition: all .2s ease;
+
+    &:hover {
+        span {
+            color: $white;
+        }
+
+        box-shadow: 8px 8px $black_6;
+        transform: translateY(-5px);
+    }
+
+    &:active {
+
+        box-shadow: 6px 6px $black_6;
+        transform: translateY(-2px);
+    }
+
+    span {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+        transition: all .2s ease;
+
+        p {
+            font-family: CascadiaCode;
+            font-size: 1.2em;
+        }
+    }
+}

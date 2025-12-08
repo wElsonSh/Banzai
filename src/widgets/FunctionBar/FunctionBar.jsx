@@ -5,9 +5,9 @@ export function FunctionBar() {
     return (
         <div className={styles.functionBar}>
             <ul className={styles.functionBar_list}>
-                <li><AddBtn /></li>
-                <li><DelBtn /></li>
+                <li title="Add new board"><AddBtn /></li>
+                <li title="Delet this board"><DelBtn /></li>
             </ul>
         </div>
     );
-}
+}   

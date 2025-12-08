@@ -2,13 +2,12 @@
 
 .addBtn {
     padding: 1.2rem;
-    background-color: $black_2;
+    background-color: $black_3;
     border: none;
     outline: none;
     cursor: pointer;
     border-radius: 40%;
     color: $black_5;
-    box-shadow: 0 0 20px #11111170;
     transition: all .2s ease;
 
     span {
@@ -17,7 +16,7 @@
     }
 
     &:hover {
-        background-color: $black_3;
+        background-color: $black_4;
         color: $black_6;
     }
 }
