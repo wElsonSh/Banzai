@@ -5,7 +5,7 @@
     height: fit-content;
     border: none;
     margin: auto;
-    box-sizing: border-box;
+    box-sizing: content-box;
     background-color: #e07bd9;
     border-radius: 10px;
     outline: 2px dashed $white;
@@ -26,7 +26,6 @@
         }
     }
 
-
     &_text {
         flex-grow: 1;
         width: 100%;
@@ -36,7 +35,7 @@
         justify-content: center;
         gap: 0.5rem;
         transition: all .2s ease;
-        padding: 1rem 0;
+        padding: 1rem;
         box-sizing: border-box;
 
         p {

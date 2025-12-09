@@ -8,6 +8,7 @@
     scrollbar-width: none;
     padding-top: 7px;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 
     .navBar_list {
         width: 100%;
@@ -41,7 +42,7 @@
             &:hover {
                 background-color: $white;
                 color: $black_1;
-                outline: 7px solid #ffffff1c;
+                outline: 7px solid #ffffff89;
             }
         }
     }

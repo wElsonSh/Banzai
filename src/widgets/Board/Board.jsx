@@ -1,4 +1,4 @@
-import { Column } from "..";
+import { Column } from "@/shared";
 import styles from "./Board.module.scss";
 
 export function Board() {
