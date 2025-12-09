@@ -9,6 +9,10 @@ export function Board() {
                     <li><Column /></li>
                     <li><Column /></li>
                     <li><Column /></li>
+                    <li><Column /></li>
+                    <li><Column /></li>
+                    <li><Column /></li>
+                    <li><Column /></li>
                 </ul>
             </div>
         </section>

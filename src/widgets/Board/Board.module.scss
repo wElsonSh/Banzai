@@ -7,9 +7,11 @@
     background-color: $black_1;
     padding: 1rem;
     box-sizing: border-box;
+    overflow-x: auto;
+    scroll-behavior: smooth;
 
     .Board_columnsContainer {
-        width: 100%;
+        width: fit-content;
         height: 100%;
         background-color: transparent;
 
